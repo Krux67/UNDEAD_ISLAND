@@ -1,10 +1,11 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Import the SceneManagement namespace
+using UnityEngine.SceneManagement;
+
 public class SceneChanger : MonoBehaviour
 {
-    // This function will be called when the button is clicked
-    public void ChangeScene(string Tutorial)
+    // Call this from a UI Button
+    public void LoadTutorialScene()
     {
-        SceneManager.LoadScene(Tutorial); // Load the scene by name
+        SceneManager.LoadScene("Tutorial");
     }
 }
