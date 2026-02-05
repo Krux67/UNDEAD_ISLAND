@@ -2842,6 +2842,511 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
+--- !u!1 &249070768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 249070771}
+  - component: {fileID: 249070770}
+  - component: {fileID: 249070769}
+  m_Layer: 0
+  m_Name: Reactional Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &249070769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249070768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6067c55200eaf74fa785b0edffa9b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoplayTheme: 1
+  _autoplayTrack: 0
+  _themeVolume: 0.9
+  _playlistVolume: 0
+  _unloadOptions: 0
+  ThemeName: reactional revolution
+  TrackName: 
+--- !u!114 &249070770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249070768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb7d56e2d1164026874f8e09601fff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSection: 
+  bundles:
+  - name: Reactional Free Bundle
+    path: C:/Unity/UNDEAD_ISLAND/Assets/StreamingAssets/Reactional\Reactional Free
+      Bundle
+    sections:
+    - name: DiscoBot
+      order: 0
+      themes:
+      - name: Disco Bot
+        ID: -1
+        artist: Luka Aron
+        album: ' '
+        genre: ' '
+        cover: 4ac9e696cfc1f13726a42f71c35341c1bb6605f12cce676463836f0bd874aef3
+        BPM: 120
+        timeSignature:
+          numerator: 0
+          denominator: 0
+        duration: 190000000
+        time: 95
+        hash: 3fea478db0f638364676ecc21f5066bb1c14353c17f24a62731f1cfc696e9ca4
+        bundleID: Reactional Free Bundle
+        macros:
+        - Density
+        - Energy
+        - Autonomy
+        - Progress
+        - Tempo
+        - Low-Pass Filter
+        - Synths Only
+        - Stereo Swirl
+        parts:
+        - intro
+        - light
+        - light (track part)
+        - medium
+        - medium (track part)
+        - full
+        - full (track part)
+        - silence
+        stingers:
+        - positive, small
+        - positive, medium
+        - positive, large
+        - neutral, small
+        - neutral, medium
+        - neutral, large
+        - negative, small
+        - negative, medium
+        - negative, large
+        - sfx crackle
+        - sfx malfunction
+        - sfx thunder
+        - sfx crash
+        - sfx rrr
+        - sfx gated snare
+        overridableInstruments:
+        - Perc Drums
+        - Perc Snare
+        - BS
+        - PL Hard
+        - PL Beep
+        - LD Nitro
+        - Sirens
+        performerRoutings:
+        - name: 'Performer: Perc Drums'
+          lane_index: 9
+          sink_indices: 00000000
+        - name: 'Performer: Perc Snare'
+          lane_index: 10
+          sink_indices: 01000000
+        - name: 'Performer: BS'
+          lane_index: 11
+          sink_indices: 02000000
+        - name: 'Performer: PL Hard'
+          lane_index: 12
+          sink_indices: 03000000
+        - name: 'Performer: PL Beep'
+          lane_index: 13
+          sink_indices: 04000000
+        - name: 'Performer: LD Nitro'
+          lane_index: 14
+          sink_indices: 05000000
+        - name: 'Performer: Sirens'
+          lane_index: 15
+          sink_indices: 06000000
+        - name: 'Playable Performer: Perc Drums'
+          lane_index: 16
+          sink_indices: 07000000
+        - name: 'Playable Performer: Perc Snare'
+          lane_index: 17
+          sink_indices: 08000000
+        - name: 'Playable Performer: BS'
+          lane_index: 18
+          sink_indices: 09000000
+        - name: 'Playable Performer: PL Hard'
+          lane_index: 19
+          sink_indices: 0a000000
+        - name: 'Playable Performer: PL Beep'
+          lane_index: 20
+          sink_indices: 0b000000
+        - name: 'Playable Performer: LD Nitro'
+          lane_index: 21
+          sink_indices: 0c000000
+        - name: 'Playable Performer: Sirens'
+          lane_index: 22
+          sink_indices: 0d000000
+        - name: 'Stinger: FX Perc'
+          lane_index: 23
+          sink_indices: 0e000000
+        - name: 'Stinger: Hard'
+          lane_index: 24
+          sink_indices: 0f000000
+        - name: 'Stinger: Beeep'
+          lane_index: 25
+          sink_indices: 10000000
+        - name: 'Stinger: Buzz'
+          lane_index: 26
+          sink_indices: 11000000
+      playlists:
+      - name: Reactional Free Playlist
+        tracks:
+        - name: Song To Sunday
+          ID: -1
+          artist: Luke Ritchie
+          album: ' '
+          genre: ' '
+          cover: 30d8e5684bb9ab3df3f831d0f89e879bc68a4b1e43bd57b08f3aa7cce4960c71
+          BPM: 98.9460931875002
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 319963342
+          time: 194.07776
+          hash: 17c0694ecc7aa3f80b75db34e1b4a86cb978e98f0d138f3fd3ba9bb4865e8d03
+          bundleID: Reactional Free Bundle
+        - name: STNFRD
+          ID: -1
+          artist: Jonas Kjellberg
+          album: ' '
+          genre: ' '
+          cover: fe9e0550bd10f8c1d6d6f4147252fc106f91369c0765b8f867f7d0fce30335cf
+          BPM: 92.0310538867921
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 268177528
+          time: 174.78195
+          hash: fc53303ecf0d7f768f8b5670c96319f601cf2527414f6d6d1c8f01db0550e9ef
+          bundleID: Reactional Free Bundle
+        - name: Over The Bridge
+          ID: -1
+          artist: Philip Hansson
+          album: ' '
+          genre: ' '
+          cover: fb0e81678af699ec91d7b21345c32d1488d6a7df5a4b75681f1b57bbfe2521e7
+          BPM: 120.023469285714
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 251980369
+          time: 126.000015
+          hash: 7e1252efbb75b1f18657b4a5fd7a6d8841d23c54312b7d19ce996fa87618e0bf
+          bundleID: Reactional Free Bundle
+        - name: Drift
+          ID: -1
+          artist: Luka Aron
+          album: ' '
+          genre: ' '
+          cover: 24b23e9f49f0a29b8be35369d0a686a9b6256ad080870721016c2780989b099a
+          BPM: 120.148596065574
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 216199994
+          time: 108
+          hash: a990b9890872c610127078080da6526b9a686a0d96353eb8b92a0f94f9e32b42
+          bundleID: Reactional Free Bundle
+        - name: enjoy.
+          ID: -1
+          artist: Alexander-Lee Couchy
+          album: ' '
+          genre: ' '
+          cover: 693afa2f7b16ca2fe7d0d4da4266fa5ba43fbc37613e14cab747b4087c540491
+          BPM: 85.0693612500001
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 96027877
+          time: 67.759544
+          hash: 194045c7804b747bac41e31673cbf34ab5af6624ad4d0d7ef2ac61b7f2afa396
+          bundleID: Reactional Free Bundle
+        - name: Time Flies
+          ID: -1
+          artist: Jonas Kjellberg
+          album: ' '
+          genre: ' '
+          cover: fa2914e5c8dac941f597c1fd95166c32823d5955c5af5fdc347323f1cf51e130
+          BPM: 74.651191
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 59969093
+          time: 48.21469
+          hash: 031e15fc1f323743cdf5fa5c5595d32823c66159df1c795f149cad8c5e4192af
+          bundleID: Reactional Free Bundle
+    - name: DiscoBooth
+      order: 1
+      themes:
+      - name: Race Baby
+        ID: -1
+        artist: Pete Frogs/Jonas Kjellberg/Luka Aron
+        album: ' '
+        genre: ' '
+        cover: 2095293146fe923d51136ce73c1bdfabfc54fad137a9bd2f9d230db940d31c6d
+        BPM: 135
+        timeSignature:
+          numerator: 0
+          denominator: 0
+        duration: 205000000
+        time: 91.111115
+        hash: d6c13d049bd032d9f2db9a731daf45cfbafdb1c37ec63115d329ef6413925902
+        bundleID: Reactional Free Bundle
+        macros:
+        - Density
+        - Energy
+        - Autonomy
+        - Progress
+        - Tempo
+        parts:
+        - intro
+        - countdown
+        - go
+        - go 2
+        - finish line
+        - ambient
+        - silence
+        stingers:
+        - positive, small
+        - positive, medium
+        - positive, large
+        - neutral, small
+        - neutral, medium
+        - neutral, large
+        - negative, small
+        - negative, medium
+        - negative, large
+        overridableInstruments:
+        - Bass Intro
+        - Bass 1
+        - Soft Lead
+        - Choir
+        - Perc SFX
+        - Perc Drums
+        - Perc Cymbals
+        - DistLead
+        - Blops
+        performerRoutings:
+        - name: 'Performer: Bass Intro'
+          lane_index: 9
+          sink_indices: 00000000
+        - name: 'Performer: Bass 1'
+          lane_index: 10
+          sink_indices: 01000000
+        - name: 'Performer: Soft Lead'
+          lane_index: 11
+          sink_indices: 02000000
+        - name: 'Performer: Choir'
+          lane_index: 12
+          sink_indices: 03000000
+        - name: 'Performer: Perc SFX'
+          lane_index: 13
+          sink_indices: 04000000
+        - name: 'Performer: Perc Drums'
+          lane_index: 14
+          sink_indices: 05000000
+        - name: 'Performer: Perc Cymbals'
+          lane_index: 15
+          sink_indices: 06000000
+        - name: 'Performer: DistLead'
+          lane_index: 16
+          sink_indices: 07000000
+        - name: 'Performer: Blops'
+          lane_index: 17
+          sink_indices: 08000000
+        - name: 'Playable Performer: Bass Intro'
+          lane_index: 18
+          sink_indices: 09000000
+        - name: 'Playable Performer: Bass 1'
+          lane_index: 19
+          sink_indices: 0a000000
+        - name: 'Playable Performer: Soft Lead'
+          lane_index: 20
+          sink_indices: 0b000000
+        - name: 'Playable Performer: Choir'
+          lane_index: 21
+          sink_indices: 0c000000
+        - name: 'Playable Performer: Perc SFX'
+          lane_index: 22
+          sink_indices: 0d000000
+        - name: 'Playable Performer: Perc Drums'
+          lane_index: 23
+          sink_indices: 0e000000
+        - name: 'Playable Performer: Perc Cymbals'
+          lane_index: 24
+          sink_indices: 0f000000
+        - name: 'Playable Performer: DistLead'
+          lane_index: 25
+          sink_indices: 10000000
+        - name: 'Playable Performer: Blops'
+          lane_index: 26
+          sink_indices: 11000000
+        - name: 'Stinger: SuperSaw'
+          lane_index: 27
+          sink_indices: 12000000
+        - name: 'Stinger: Blops'
+          lane_index: 28
+          sink_indices: 13000000
+        - name: 'Stinger: Neut'
+          lane_index: 29
+          sink_indices: 14000000
+        - name: 'Stinger: Perc SFX'
+          lane_index: 30
+          sink_indices: 15000000
+      playlists:
+      - name: Reactional Free Playlist
+        tracks:
+        - name: Song To Sunday
+          ID: -1
+          artist: Luke Ritchie
+          album: ' '
+          genre: ' '
+          cover: 30d8e5684bb9ab3df3f831d0f89e879bc68a4b1e43bd57b08f3aa7cce4960c71
+          BPM: 98.9460931875002
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 319963342
+          time: 194.07776
+          hash: 17c0694ecc7aa3f80b75db34e1b4a86cb978e98f0d138f3fd3ba9bb4865e8d03
+          bundleID: Reactional Free Bundle
+        - name: STNFRD
+          ID: -1
+          artist: Jonas Kjellberg
+          album: ' '
+          genre: ' '
+          cover: fe9e0550bd10f8c1d6d6f4147252fc106f91369c0765b8f867f7d0fce30335cf
+          BPM: 92.0310538867921
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 268177528
+          time: 174.78195
+          hash: fc53303ecf0d7f768f8b5670c96319f601cf2527414f6d6d1c8f01db0550e9ef
+          bundleID: Reactional Free Bundle
+        - name: Over The Bridge
+          ID: -1
+          artist: Philip Hansson
+          album: ' '
+          genre: ' '
+          cover: fb0e81678af699ec91d7b21345c32d1488d6a7df5a4b75681f1b57bbfe2521e7
+          BPM: 120.023469285714
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 251980369
+          time: 126.000015
+          hash: 7e1252efbb75b1f18657b4a5fd7a6d8841d23c54312b7d19ce996fa87618e0bf
+          bundleID: Reactional Free Bundle
+        - name: Drift
+          ID: -1
+          artist: Luka Aron
+          album: ' '
+          genre: ' '
+          cover: 24b23e9f49f0a29b8be35369d0a686a9b6256ad080870721016c2780989b099a
+          BPM: 120.148596065574
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 216199994
+          time: 108
+          hash: a990b9890872c610127078080da6526b9a686a0d96353eb8b92a0f94f9e32b42
+          bundleID: Reactional Free Bundle
+        - name: enjoy.
+          ID: -1
+          artist: Alexander-Lee Couchy
+          album: ' '
+          genre: ' '
+          cover: 693afa2f7b16ca2fe7d0d4da4266fa5ba43fbc37613e14cab747b4087c540491
+          BPM: 85.0693612500001
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 96027877
+          time: 67.759544
+          hash: 194045c7804b747bac41e31673cbf34ab5af6624ad4d0d7ef2ac61b7f2afa396
+          bundleID: Reactional Free Bundle
+        - name: Time Flies
+          ID: -1
+          artist: Jonas Kjellberg
+          album: ' '
+          genre: ' '
+          cover: fa2914e5c8dac941f597c1fd95166c32823d5955c5af5fdc347323f1cf51e130
+          BPM: 74.651191
+          timeSignature:
+            numerator: 4
+            denominator: 4
+          duration: 59969093
+          time: 48.21469
+          hash: 031e15fc1f323743cdf5fa5c5595d32823c66159df1c795f149cad8c5e4192af
+          bundleID: Reactional Free Bundle
+  _loadedThemes:
+  - name: 
+    ID: 0
+    artist: 
+    album: 
+    genre: 
+    cover: 
+    BPM: 
+    timeSignature:
+      numerator: 0
+      denominator: 0
+    duration: 0
+    time: 0
+    hash: 
+    bundleID: 
+    macros: []
+    parts: []
+    stingers: []
+    overridableInstruments: []
+    performerRoutings: []
+  _loadedTracks: []
+  lookahead: 100000
+  selectedTheme: 0
+  selectedTrack: 0
+  _playlistMode: 1
+  _loadType: 0
+  isDucked: 0
+  mainOut: {fileID: 0}
+--- !u!4 &249070771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249070768}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1131882515}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!213 &267356753
 Sprite:
   m_ObjectHideFlags: 0
@@ -262498,6 +263003,170 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1446292517}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -63.419}
+--- !u!1 &1131882514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1131882515}
+  - component: {fileID: 1131882518}
+  - component: {fileID: 1131882517}
+  - component: {fileID: 1131882516}
+  m_Layer: 0
+  m_Name: Reactional Engine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1131882515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131882514}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 249070771}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1131882516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131882514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac75578937fc47ba83a551c88ebd6cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisplayProfiler: 0
+  _fontSize: 16
+  UIScale: 1.2
+  _displayNamesToConsoleAtStart: 0
+--- !u!114 &1131882517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131882514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcd0cc5516da4100adb4b6a71d92ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _allowPlay: 0
+  _outputEvents: 1
+  output: {fileID: 0}
+  _logLevel: 7
+  _updateMode: 1
+  _audioOutputMode: 0
+--- !u!82 &1131882518
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131882514}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1173127167 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 167305955243685038, guid: ae4bb1369223bce4e80c9007cfbde537, type: 3}
@@ -273309,3 +273978,4 @@ SceneRoots:
   - {fileID: 1446292517}
   - {fileID: 2103290899}
   - {fileID: 1000902846}
+  - {fileID: 249070771}
