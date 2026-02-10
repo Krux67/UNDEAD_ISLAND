@@ -222,6 +222,7 @@ Transform:
   m_PrefabInstance: {fileID: 1634779310}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &50152475 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5836857197505123814, guid: c54b36ee7861c4b41bd1dabf2455160f, type: 3}
@@ -312,6 +313,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1001 &53100536
@@ -22045,6 +22048,7 @@ Transform:
   m_PrefabInstance: {fileID: 329251547}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1001 &1310921894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22151,6 +22155,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 50152480}
   m_SourcePrefab: {fileID: 100100000, guid: c54b36ee7861c4b41bd1dabf2455160f, type: 3}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!4 &1318636062 stripped
@@ -24036,7 +24042,11 @@ PrefabInstance:
     - target: {fileID: 3431018974941178782, guid: c54b36ee7861c4b41bd1dabf2455160f, type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       value: -1
+=======
+      value: 1
+>>>>>>> Stashed changes
 =======
       value: 1
 >>>>>>> Stashed changes
@@ -24060,7 +24070,11 @@ PrefabInstance:
     - target: {fileID: 3431018974941178782, guid: c54b36ee7861c4b41bd1dabf2455160f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       value: -180
+=======
+      value: 180
+>>>>>>> Stashed changes
 =======
       value: 180
 >>>>>>> Stashed changes
