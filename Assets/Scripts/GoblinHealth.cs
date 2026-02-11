@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GoblinHealth : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
     public int health = 50;
 
