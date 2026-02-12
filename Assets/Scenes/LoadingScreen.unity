@@ -374,6 +374,7 @@ GameObject:
   - component: {fileID: 912342717}
   - component: {fileID: 912342716}
   - component: {fileID: 912342715}
+  - component: {fileID: 912342718}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -397,7 +398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -554.5864, y: -257.67508}
+  m_AnchoredPosition: {x: -591.35, y: -257.92}
   m_SizeDelta: {x: -7.8222, y: -3.2593}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &912342715
@@ -494,6 +495,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912342713}
   m_CullTransparentMesh: 1
+--- !u!114 &912342718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912342713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d916ad61e9a447a32a689b0f4de03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Test2
+  useBuildIndex: 0
+  buildIndex: 0
+  autoHookButton: 1
 --- !u!1 &932747762
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,7 +699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -553.71277, y: -260.89197}
+  m_AnchoredPosition: {x: -562.56, y: -261.41}
   m_SizeDelta: {x: -9.5694, y: -2.8068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1383176412
@@ -729,7 +746,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1383176415}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeSceneButton, Assembly-CSharp
         m_MethodName: LoadTutorial
         m_Mode: 1
@@ -788,9 +805,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1383176410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ac8658ffc8c6b748add38d2ef0419b0, type: 3}
+  m_Script: {fileID: 11500000, guid: fb4d916ad61e9a447a32a689b0f4de03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: Tutorial
+  useBuildIndex: 0
+  buildIndex: 0
+  autoHookButton: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
