@@ -1,52 +1,33 @@
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class EnemyProjectile : MonoBehaviour
 {
-    [Header("Settings")]
+    public float speed = 10f;
     public int damage = 10;
-    public float speed = 20f;
-    public float lifetime = 5f;
-    public bool destroyOnImpact = true;
+    public float lifetime = 3f;
+
+    private Rigidbody2D rb;
 
     void Start()
     {
-        // Auto-destroy projectile after lifetime expires
+        rb = GetComponent<Rigidbody2D>();
+        // Move projectile forward based on where it was spawned
+        rb.velocity = transform.right * speed;
         Destroy(gameObject, lifetime);
     }
 
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Move projectile forward
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        // Check if the object hit has the PlayerHealth component
-        PlayerHealth player = other.GetComponent<PlayerHealth>();
-
+        // Check if we hit the player
+        PlayerHealth player = collision.GetComponent<PlayerHealth>();
         if (player != null)
         {
             player.TakeDamage(damage);
-        }
-
-        // Destroy the projectile upon hitting any object
-        if (destroyOnImpact)
-        {
             Destroy(gameObject);
         }
-    }
 
-    // Use this if using 2D Physics
-    private void OnTriggerEnter2D(Collider2D academics)
-    {
-        PlayerHealth player = academics.GetComponent<PlayerHealth>();
-
-        if (player != null)
-        {
-            player.TakeDamage(damage);
-        }
-
-        if (destroyOnImpact)
+        // Destroy if hits ground (adjust layer as needed)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             Destroy(gameObject);
         }

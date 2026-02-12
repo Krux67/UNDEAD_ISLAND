@@ -1,35 +1,24 @@
-// Language: C#
 using UnityEngine;
 
-public class Teleporter2D : MonoBehaviour
+public class RoomTeleporter : MonoBehaviour
 {
-    // Assign the destination in the Inspector
-    public Transform teleportDestination;
+    public Transform destination;
 
-    // Optional: cooldown to avoid instant re-teleporting
-    public float teleportCooldown = 0.5f;
-    private bool canTeleport = true;
-
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player") && canTeleport)
+        // Ensure your Player object has the "Player" tag in the Inspector
+        if (collision.CompareTag("Player"))
         {
-            StartCoroutine(TeleportPlayer(other.gameObject));
+            // Move the Player to the destination
+            collision.transform.position = destination.position;
+
+            // Move the Camera instantly to the destination
+            if (Camera.main != null)
+            {
+                Vector3 newCamPos = destination.position;
+                newCamPos.z = -10f; // Keep the camera at the correct 2D depth
+                Camera.main.transform.position = newCamPos;
+            }
         }
-    }
-
-    private System.Collections.IEnumerator TeleportPlayer(GameObject player)
-    {
-        canTeleport = false;
-
-        // Move the player instantly to the destination
-        player.transform.position = teleportDestination.position;
-
-        // Optional: You can add visual or sound effects here
-        // Example: Instantiate(teleportEffectPrefab, player.transform.position, Quaternion.identity);
-
-        // Cooldown to prevent re-triggering immediately
-        yield return new WaitForSeconds(teleportCooldown);
-        canTeleport = true;
     }
 }
